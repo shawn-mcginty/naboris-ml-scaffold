@@ -11,6 +11,7 @@
     "start": "esy b dune exec ./src/App.exe",
     "install": "esy install",
     "build-main": "esy b dune build ./src/App.exe",
+    "build-test": "echo \"Tests not yet implemented\"",
     "build": "npm run build-main && npm run build-test"
   },
   "author": "",
